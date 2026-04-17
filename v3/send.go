@@ -98,5 +98,5 @@ func (c Client) SendMessage(dest string, sender string, template string, vars mo
 	}
 
 	// Send message
-	return sendMessageToGlobeRaw(c, strings.TrimPrefix(dest, "+"), templateContent, sender)
+	return sendMessageToGlobeRaw(c, strings.TrimPrefix(dest, "+"), sender, templateContent)
 }
