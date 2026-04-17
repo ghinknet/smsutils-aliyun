@@ -23,7 +23,7 @@ func (d Driver) NewClient(params model.DriverClientParam) (model.Client, error) 
 	// Check credential
 	keyID, keySecret := params.Credential[AccessKeyID], params.Credential[AccessKeySecret]
 	if keyID == "" || keySecret == "" {
-		return Client{}, errors.ErrDriverCredentialInvalid
+		return Client{}, errors.ErrDriverCredentialInvalid.WithDriverName(Name)
 	}
 
 	// Try to decode globe template
