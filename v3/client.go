@@ -4,8 +4,8 @@ import (
 	openapiV2 "github.com/alibabacloud-go/darabonba-openapi/v2/client"
 	dysmsapi20170525 "github.com/alibabacloud-go/dysmsapi-20170525/v5/client"
 	dysmsapi20180501 "github.com/alibabacloud-go/dysmsapi-20180501/v2/client"
-	"github.com/ghinknet/smsutils/v3/errors"
-	"github.com/ghinknet/smsutils/v3/model"
+	"go.gh.ink/smsutils/v3/errors"
+	"go.gh.ink/smsutils/v3/model"
 )
 
 type Client struct {

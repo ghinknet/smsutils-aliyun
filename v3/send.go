@@ -6,10 +6,10 @@ import (
 	dysmsapi20170525 "github.com/alibabacloud-go/dysmsapi-20170525/v5/client"
 	dysmsapi20180501 "github.com/alibabacloud-go/dysmsapi-20180501/v2/client"
 	util "github.com/alibabacloud-go/tea-utils/v2/service"
-	"github.com/ghinknet/smsutils/v3/errors"
-	"github.com/ghinknet/smsutils/v3/model"
-	"github.com/ghinknet/smsutils/v3/utils"
-	"github.com/ghinknet/toolbox/pointer"
+	"go.gh.ink/smsutils/v3/errors"
+	"go.gh.ink/smsutils/v3/model"
+	"go.gh.ink/smsutils/v3/utils"
+	"go.gh.ink/toolbox/pointer"
 )
 
 // sendMessageToGlobeRaw is the raw method to send an SMS to Globe

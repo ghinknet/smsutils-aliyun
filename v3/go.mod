@@ -1,4 +1,4 @@
-module github.com/ghinknet/smsutils-aliyun/v3
+module go.gh.ink/smsutils/aliyun/v3
 
 go 1.26.2
 
@@ -7,8 +7,8 @@ require (
 	github.com/alibabacloud-go/dysmsapi-20170525/v5 v5.5.1
 	github.com/alibabacloud-go/dysmsapi-20180501/v2 v2.0.8
 	github.com/alibabacloud-go/tea-utils/v2 v2.0.9
-	github.com/ghinknet/smsutils/v3 v3.1.1
-	github.com/ghinknet/toolbox v1.11.1
+	go.gh.ink/smsutils/v3 v3.1.3
+	go.gh.ink/toolbox v1.11.2
 )
 
 require (
