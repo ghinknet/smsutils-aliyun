@@ -7,7 +7,7 @@ require (
 	github.com/alibabacloud-go/dysmsapi-20170525/v5 v5.5.1
 	github.com/alibabacloud-go/dysmsapi-20180501/v2 v2.0.8
 	github.com/alibabacloud-go/tea-utils/v2 v2.0.9
-	go.gh.ink/smsutils/v3 v3.1.4
+	go.gh.ink/smsutils/v3 v3.1.5
 	go.gh.ink/toolbox v1.14.1
 )
 
@@ -20,7 +20,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/nyaruka/phonenumbers v1.7.2 // indirect
+	github.com/nyaruka/phonenumbers v1.7.4 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	golang.org/x/net v0.54.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
